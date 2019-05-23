@@ -1,0 +1,22 @@
+
+package:
+  name: opsfw
+  version: 0.0.1
+
+source:
+  path: ../
+
+build:
+  noarch: python
+  number: 1
+  script: $PYTHON setup.py install
+
+requirements:
+  host:
+    - setuptools_scm
+    - python
+  run:
+    - python
+about:
+  summary: see the readme 
+
