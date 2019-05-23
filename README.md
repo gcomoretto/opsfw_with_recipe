@@ -1,4 +1,4 @@
-# opsforwarder
+# opsfw (opsforwarder)
 Simlpe script to periodically copy files simulating the telescope.
 
 To develop and run it locally:
